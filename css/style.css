@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../imagem/charlie-brown-jr.webp");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+header{
+    width: 100%;
+    background-color: #A9A9A9;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 13px 0;
+}
+
+.logo-imagem{
+    width: 20%;
+    height: 20%;
+}
+
+.container-logo{
+    display: flex;
+    text-align: center;
+}
+
+.logo-texto{
+    margin-left: 30;
+    color: #000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 13px;
+    
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0 10px;
+    margin-block: 0;
+}
+
+.menu li a{
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 10px;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.menu li a:hover{
+    background-color: rgba(100, 100, 100, 0.8);
+}
+
+p{
+    margin: 30px;
+    padding: 5px;
+}
+
+.estilo{
+    text-align: right;
+    padding: 0px 50px;
+}
+
+.esquerdo{
+    text-align: left;
+    margin: 10px;
+    padding: 5px 5px;
+}
+
+.historia{
+    text-align: left;
+    margin: 20px;
+    padding: 0px 10px;
+}
+
+.link{
+    margin: 5px;
+    padding: 2px 2px;
+    font-size: 20px;
+    text-align: 10px;
+    line-height: 70px;
+}
+
+.direito{
+    text-align: right;
+    margin: -950px 5px;
+}
+
+.texto-em-italico{
+    font-style: italic;
+}
+
+.album{
+    margin: 20px;
+    text-align: left;
+}
+
+
+
+.imagem-direita{
+    position: absolute;
+    top: 50px;
+    left: 500px;
+
+}
+
+.tabela{
+    font-size: 15px;
+    border: 2px solid;
+    margin: 50px;
+    padding: 10px 10px;
+    
+    
+}
+
+.tamanho{
+    font-size: 13px;
+}
+
+.musica{
+    position: absolute;
+}
+
+h1{
+    text-align: center;
+    padding: 10px;
+}
+.vago, td{
+    width: 600px;
+}
+
